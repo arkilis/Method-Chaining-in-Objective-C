@@ -49,7 +49,7 @@ NSLog(@"results: %@", num.add(10).minus(5).multiply(100).divide(2));
 ----
 ## Reference
 
-[Masonry](https://github.com/SnapKit/Masonry)
-[Swift Extension and Objective-C category](http://www.arkilis.me/?p=361)
-[https://kangzubin.com/objective-c-chainable-syntax/index.html]https://kangzubin.com/objective-c-chainable-syntax/index.html
+* [Masonry](https://github.com/SnapKit/Masonry)
+* [Swift Extension and Objective-C category](http://www.arkilis.me/?p=361)
+* [https://kangzubin.com/objective-c-chainable-syntax/index.html]https://kangzubin.com/objective-c-chainable-syntax/index.html
 
