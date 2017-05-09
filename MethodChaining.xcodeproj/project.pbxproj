@@ -15,6 +15,8 @@
 		B5672CD41EC142C20007964A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5672CD21EC142C20007964A /* LaunchScreen.storyboard */; };
 		B5672CDF1EC142C20007964A /* MethodChainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5672CDE1EC142C20007964A /* MethodChainingTests.m */; };
 		B5672CEA1EC142C20007964A /* MethodChainingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5672CE91EC142C20007964A /* MethodChainingUITests.m */; };
+		B5672CFB1EC142E40007964A /* CalculateChain.m in Sources */ = {isa = PBXBuildFile; fileRef = B5672CFA1EC142E40007964A /* CalculateChain.m */; };
+		B5672CFE1EC142EF0007964A /* NSNumber+CalculateChain2.m in Sources */ = {isa = PBXBuildFile; fileRef = B5672CFD1EC142EF0007964A /* NSNumber+CalculateChain2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		B5672CE51EC142C20007964A /* MethodChainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodChainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5672CE91EC142C20007964A /* MethodChainingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodChainingUITests.m; sourceTree = "<group>"; };
 		B5672CEB1EC142C20007964A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5672CF91EC142E40007964A /* CalculateChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateChain.h; sourceTree = "<group>"; };
+		B5672CFA1EC142E40007964A /* CalculateChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateChain.m; sourceTree = "<group>"; };
+		B5672CFC1EC142EF0007964A /* NSNumber+CalculateChain2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CalculateChain2.h"; sourceTree = "<group>"; };
+		B5672CFD1EC142EF0007964A /* NSNumber+CalculateChain2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CalculateChain2.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		B5672CC31EC142C20007964A /* MethodChaining */ = {
 			isa = PBXGroup;
 			children = (
+				B5672CF71EC142C80007964A /* Method1 */,
+				B5672CF81EC142CE0007964A /* Method2 */,
 				B5672CC71EC142C20007964A /* AppDelegate.h */,
 				B5672CC81EC142C20007964A /* AppDelegate.m */,
 				B5672CCA1EC142C20007964A /* ViewController.h */,
@@ -138,6 +146,24 @@
 				B5672CEB1EC142C20007964A /* Info.plist */,
 			);
 			path = MethodChainingUITests;
+			sourceTree = "<group>";
+		};
+		B5672CF71EC142C80007964A /* Method1 */ = {
+			isa = PBXGroup;
+			children = (
+				B5672CF91EC142E40007964A /* CalculateChain.h */,
+				B5672CFA1EC142E40007964A /* CalculateChain.m */,
+			);
+			name = Method1;
+			sourceTree = "<group>";
+		};
+		B5672CF81EC142CE0007964A /* Method2 */ = {
+			isa = PBXGroup;
+			children = (
+				B5672CFC1EC142EF0007964A /* NSNumber+CalculateChain2.h */,
+				B5672CFD1EC142EF0007964A /* NSNumber+CalculateChain2.m */,
+			);
+			name = Method2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5672CFB1EC142E40007964A /* CalculateChain.m in Sources */,
 				B5672CCC1EC142C20007964A /* ViewController.m in Sources */,
 				B5672CC91EC142C20007964A /* AppDelegate.m in Sources */,
 				B5672CC61EC142C20007964A /* main.m in Sources */,
+				B5672CFE1EC142EF0007964A /* NSNumber+CalculateChain2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
